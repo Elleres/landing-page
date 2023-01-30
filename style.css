@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     margin: 0;
 }
 
@@ -9,6 +10,11 @@ body {
     padding-left: 150px;
     padding-right: 200px;
 
+}
+
+.Logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .links-header {
@@ -23,8 +29,9 @@ body {
 }
 
 a {
-    color: white;
+    color: #e5e7eb;
     text-decoration: none;
+    font-size: 18px
 }
 
 .partone {
@@ -34,6 +41,17 @@ a {
     background-color: #1f2937;
     color: white;
     padding-top: 10px;
+}
+
+.textmain h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.textmain p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .h1img {
@@ -52,4 +70,33 @@ a {
 button {
     width: 100px;
     height: 30px;
+    border-radius: 4px;
+    background-color: #3882f6;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.parttwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.parttwo h2 {
+    text-align: center;
+    padding: 23px;
+}
+
+.gatos {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.randomimg {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
