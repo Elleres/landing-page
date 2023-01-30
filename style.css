@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 200px;
+
+}
+
+.links-header {
+    display: flex;
+    gap: 23px;
+}
+
+.imgplaceholder {
+    width: 400px;
+    height: 250px;
+    background-color: blue;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.partone {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1f2937;
+    color: white;
+    padding-top: 10px;
+}
+
+.h1img {
+    width: 1400px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textmain {
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+}
